@@ -6,4 +6,4 @@ The tube models, textures, icons, player-pose animations and Slipstream branding
 
 The build uses the official Hytale server API, including its supplied JOML types. Documentation uses MkDocs and its bundled Read the Docs theme, installed separately under their own licences.
 
-No open-source licence has been selected for Slipstream Transit's code or original assets. This repository does not grant a redistribution licence for Hytale or any other third-party material.
+Slipstream Transit's code and original project assets are provided under the MIT licence in LICENSE. The licence applies only to material whose rights are held by the project; Hytale and other third-party material retain their respective owners' rights. This repository does not grant a redistribution licence for Hytale or any other third-party material.

@@ -47,4 +47,4 @@ python3 -m venv .venv-docs
 .venv-docs/bin/python -m mkdocs serve
 ```
 
-Pushes to `main` build and publish the [player guide](https://jkswoods.github.io/slipstream-transit/). Pull requests build the docs without deploying. Download the initial **0.1.0-dev.1** preview from [Releases](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). No open-source licence has been selected; see [third-party notices](THIRD_PARTY_NOTICES.md).
+Pushes to `main` build and publish the [player guide](https://jkswoods.github.io/slipstream-transit/). Pull requests build the docs without deploying. Download the initial **0.1.0-dev.1** preview from [Releases](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). Code and original project assets are available under the [MIT licence](LICENSE); see [third-party notices](THIRD_PARTY_NOTICES.md).
