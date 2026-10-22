@@ -31,3 +31,5 @@ nav:
 repo_url: https://github.com/jkswoods/slipstream-transit
 extra_css:
   - assets/stylesheets/slipstream.css
+
+site_url: https://jkswoods.github.io/slipstream-transit/

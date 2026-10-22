@@ -1,5 +1,9 @@
 # Slipstream Transit
 
+[Player docs](https://jkswoods.github.io/slipstream-transit/) · [Development releases](https://github.com/jkswoods/slipstream-transit/releases)
+
+![Docs build](https://github.com/jkswoods/slipstream-transit/actions/workflows/docs.yml/badge.svg?branch=main)
+
 ![Slipstream Transit — Take the tube](docs/assets/banner.svg)
 
 **Small tubes. Big shortcuts.** Build a clear passenger-tube network, walk beneath an open intake and get whisked away in first person.
@@ -43,4 +47,4 @@ python3 -m venv .venv-docs
 .venv-docs/bin/python -m mkdocs serve
 ```
 
-This repository has no published binary release or hosted documentation site yet. No open-source licence has been selected; see [third-party notices](THIRD_PARTY_NOTICES.md).
+Pushes to `main` build and publish the [player guide](https://jkswoods.github.io/slipstream-transit/). Pull requests build the docs without deploying. Download the initial **0.1.0-dev.1** preview from [Releases](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). No open-source licence has been selected; see [third-party notices](THIRD_PARTY_NOTICES.md).

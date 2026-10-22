@@ -1,5 +1,9 @@
 # Changes
 
+## 0.1.0-dev.1 — initial development release
+
+First downloadable preview: compact passenger tubes, automatic shrinking intake, six colours, a Pipe Workbench, named destinations and splitters. Includes the C7 movement-lock, appearance and icon fixes. Targets Hytale0.7.3 and Java25; multiplayer, survival ingredient deduction and final listening/comfort review remain pending.
+
 ## C7 — passenger controls and appearance
 
 - Movement stays locked during capture, travel and growth, then restores after arrival, safe return or affected reconnect.

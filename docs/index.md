@@ -26,4 +26,4 @@ There is no boarding key, power supply or fare. The intake draws you in automati
 
 Use a test world and keep a full backup. The preview supports **one passenger per world**, **128 parts per world** and **64 parts per journey**. Routes stay within loaded chunks and all connected parts must share a builder. Real second-client multiplayer and survival ingredient deduction are not verified yet.
 
-[Installation and compatibility](installation.md) · [Controls and first steps](getting-started.md) · [More screenshots](gallery.md)
+[Download the preview](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1) · [Installation and compatibility](installation.md) · [Controls and first steps](getting-started.md) · [More screenshots](gallery.md)

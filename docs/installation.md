@@ -2,7 +2,9 @@
 
 **Target: Hytale 0.7.3 · Java 25 · Development preview**
 
-There is no published binary release yet. Build the source with your own official Hytale server JAR, or use the versioned test JAR supplied for this preview.
+Download **SlipstreamTransit-0.1.0-dev.1.jar** from the [initial development release](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). The release includes `SHA256SUMS` for checking the download. This is a preview for test worlds; the current limits below still apply.
+
+You can also build the source with your own official Hytale server JAR.
 
 ## Build from source
 
