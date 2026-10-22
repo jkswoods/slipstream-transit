@@ -1,0 +1,157 @@
+{
+  "Animations": {
+    "Ride-90": {
+      "ThirdPerson": "Characters/Slipstream/Ride-90.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-90.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-90.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-80": {
+      "ThirdPerson": "Characters/Slipstream/Ride-80.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-80.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-80.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-70": {
+      "ThirdPerson": "Characters/Slipstream/Ride-70.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-70.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-70.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-60": {
+      "ThirdPerson": "Characters/Slipstream/Ride-60.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-60.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-60.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-50": {
+      "ThirdPerson": "Characters/Slipstream/Ride-50.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-50.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-50.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-40": {
+      "ThirdPerson": "Characters/Slipstream/Ride-40.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-40.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-40.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-30": {
+      "ThirdPerson": "Characters/Slipstream/Ride-30.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-30.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-30.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-20": {
+      "ThirdPerson": "Characters/Slipstream/Ride-20.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-20.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-20.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride-10": {
+      "ThirdPerson": "Characters/Slipstream/Ride-10.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride-10.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride-10.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride0": {
+      "ThirdPerson": "Characters/Slipstream/Ride0.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride0.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride0.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride10": {
+      "ThirdPerson": "Characters/Slipstream/Ride10.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride10.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride10.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride20": {
+      "ThirdPerson": "Characters/Slipstream/Ride20.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride20.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride20.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride30": {
+      "ThirdPerson": "Characters/Slipstream/Ride30.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride30.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride30.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride40": {
+      "ThirdPerson": "Characters/Slipstream/Ride40.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride40.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride40.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride50": {
+      "ThirdPerson": "Characters/Slipstream/Ride50.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride50.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride50.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride60": {
+      "ThirdPerson": "Characters/Slipstream/Ride60.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride60.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride60.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride70": {
+      "ThirdPerson": "Characters/Slipstream/Ride70.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride70.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride70.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride80": {
+      "ThirdPerson": "Characters/Slipstream/Ride80.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride80.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride80.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    },
+    "Ride90": {
+      "ThirdPerson": "Characters/Slipstream/Ride90.blockyanim",
+      "ThirdPersonMoving": "Characters/Slipstream/Ride90.blockyanim",
+      "FirstPerson": "Characters/Slipstream/Ride90.blockyanim",
+      "Looping": true,
+      "BlendingDuration": 0.12,
+      "Speed": 1
+    }
+  },
+  "Parent": "Default"
+}

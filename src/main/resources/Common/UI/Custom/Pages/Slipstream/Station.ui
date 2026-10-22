@@ -1,0 +1,17 @@
+$C = "../../Common.ui";
+$C.@PageOverlay {
+ $C.@Container { Anchor: (Width: 560, Height: 490);
+  #Title { $C.@Title #StationTitle { @Text = "Slipstream Transit"; } }
+  #Content { Padding: (Full: 24); LayoutMode: Top;
+   Label #Hint { Anchor: (Height: 64); Style: (FontSize: 17, TextColor: #b7cbd2, Wrap: true); }
+   Group #Naming { Anchor: (Height: 210); LayoutMode: Top;
+    $C.@TextField #Name { @Anchor = (Height: 42); PlaceholderText: "Destination name"; }
+    Group { Anchor: (Height: 18); }
+    $C.@TextButton #Save { Anchor: (Height: 42); Text: "Save name"; }
+   }
+   Group #Routes { Anchor: (Height: 230); LayoutMode: TopScrolling; ScrollbarStyle: $C.@DefaultScrollbarStyle; }
+   Group { Anchor: (Height: 12); }
+   $C.@SecondaryTextButton #Cancel { Anchor: (Height: 38); Text: "Cancel"; }
+  }
+ }
+}

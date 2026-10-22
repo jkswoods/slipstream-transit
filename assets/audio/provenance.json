@@ -1,0 +1,407 @@
+{
+  "provider": "ElevenLabs connected Sound Effects",
+  "generated_on": "2026-10-22",
+  "generations": [
+    {
+      "cue": "intake",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.2,
+      "prompt": "Short friendly pneumatic passenger tube intake. Close perspective: soft valve click, a rounded low air gulp and smooth hiss that gently swells then stops. Playful practical machinery, warm and reassuring. No voices, music, alarms, piercing whistle or heavy impact.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.2"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "intake",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.2,
+      "prompt": "Short friendly pneumatic passenger tube intake. Close perspective: soft valve click, a rounded low air gulp and smooth hiss that gently swells then stops. Playful practical machinery, warm and reassuring. No voices, music, alarms, piercing whistle or heavy impact.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.2"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "intake",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.2,
+      "prompt": "Short friendly pneumatic passenger tube intake. Close perspective: soft valve click, a rounded low air gulp and smooth hiss that gently swells then stops. Playful practical machinery, warm and reassuring. No voices, music, alarms, piercing whistle or heavy impact.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.2"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "intake",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.2,
+      "prompt": "Short friendly pneumatic passenger tube intake. Close perspective: soft valve click, a rounded low air gulp and smooth hiss that gently swells then stops. Playful practical machinery, warm and reassuring. No voices, music, alarms, piercing whistle or heavy impact.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.2"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "transit",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 4,
+      "prompt": "Seamless steady passenger tube airflow heard from inside a clear travel tube. Smooth soft broadband whoosh with a restrained low turbine undertone, even level, comfortable and airy, no pulses, no rhythmic beat, no squeal, no voices, no music, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "4.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "cue": "transit",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 4,
+      "prompt": "Seamless steady passenger tube airflow heard from inside a clear travel tube. Smooth soft broadband whoosh with a restrained low turbine undertone, even level, comfortable and airy, no pulses, no rhythmic beat, no squeal, no voices, no music, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "4.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "cue": "transit",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 4,
+      "prompt": "Seamless steady passenger tube airflow heard from inside a clear travel tube. Smooth soft broadband whoosh with a restrained low turbine undertone, even level, comfortable and airy, no pulses, no rhythmic beat, no squeal, no voices, no music, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "4.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "cue": "transit",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 4,
+      "prompt": "Seamless steady passenger tube airflow heard from inside a clear travel tube. Smooth soft broadband whoosh with a restrained low turbine undertone, even level, comfortable and airy, no pulses, no rhythmic beat, no squeal, no voices, no music, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "4.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "cue": "arrival",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.28,
+      "prompt": "Friendly pneumatic passenger tube arrival: soft air cushion exhale, gentle padded mechanical latch and one tiny warm glassy confirmation tone. Close and quiet, reassuring, not dramatic. No speech, music, sirens, piercing notes or heavy impacts.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.3"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "arrival",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.28,
+      "prompt": "Friendly pneumatic passenger tube arrival: soft air cushion exhale, gentle padded mechanical latch and one tiny warm glassy confirmation tone. Close and quiet, reassuring, not dramatic. No speech, music, sirens, piercing notes or heavy impacts.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.3"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "arrival",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.28,
+      "prompt": "Friendly pneumatic passenger tube arrival: soft air cushion exhale, gentle padded mechanical latch and one tiny warm glassy confirmation tone. Close and quiet, reassuring, not dramatic. No speech, music, sirens, piercing notes or heavy impacts.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.3"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "arrival",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.28,
+      "prompt": "Friendly pneumatic passenger tube arrival: soft air cushion exhale, gentle padded mechanical latch and one tiny warm glassy confirmation tone. Close and quiet, reassuring, not dramatic. No speech, music, sirens, piercing notes or heavy impacts.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.3"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "cue": "suction",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 6,
+      "prompt": "Seamless continuous suction wind at the open mouth of a small pneumatic passenger tube overhead. Air is steadily being drawn upward into a round opening: soft airy rushing hiss, gentle hollow vacuum resonance and a restrained smooth turbine undertone. Clearly sucking inward, friendly playful transport machinery, steady even level. No voices, no music, no clicks, no rhythmic pulses, no whistle, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "6.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "cue": "suction",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 6,
+      "prompt": "Seamless continuous suction wind at the open mouth of a small pneumatic passenger tube overhead. Air is steadily being drawn upward into a round opening: soft airy rushing hiss, gentle hollow vacuum resonance and a restrained smooth turbine undertone. Clearly sucking inward, friendly playful transport machinery, steady even level. No voices, no music, no clicks, no rhythmic pulses, no whistle, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "6.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "cue": "suction",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 6,
+      "prompt": "Seamless continuous suction wind at the open mouth of a small pneumatic passenger tube overhead. Air is steadily being drawn upward into a round opening: soft airy rushing hiss, gentle hollow vacuum resonance and a restrained smooth turbine undertone. Clearly sucking inward, friendly playful transport machinery, steady even level. No voices, no music, no clicks, no rhythmic pulses, no whistle, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "6.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    },
+    {
+      "cue": "suction",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 6,
+      "prompt": "Seamless continuous suction wind at the open mouth of a small pneumatic passenger tube overhead. Air is steadily being drawn upward into a round opening: soft airy rushing hiss, gentle hollow vacuum resonance and a restrained smooth turbine undertone. Clearly sucking inward, friendly playful transport machinery, steady even level. No voices, no music, no clicks, no rhythmic pulses, no whistle, no start or stop.",
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "6.0"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.45"
+        },
+        {
+          "label": "Loop",
+          "value": "True"
+        }
+      ]
+    }
+  ],
+  "workbench": {
+    "prompt": "A small retro futuristic pipe workshop: one soft metal clamp clicks shut, a brief gentle pneumatic hiss, then a satisfying muted brass latch clunk. Friendly tactile crafting completion, close dry recording, no music, no speech, no harsh impact. Single short event lasting 1.2 seconds.",
+    "model_id": "eleven_text_to_sound_v2",
+    "model_parameters": {
+      "duration_seconds": 1.2,
+      "prompt_influence": 0.45,
+      "loop": false
+    }
+  },
+  "runtime_exports": [
+    {
+      "cue": "intake",
+      "event": "ST_SFX_Intake",
+      "runtime": "Common/Sounds/Slipstream/intake.ogg",
+      "sha256": "e07398fa90bdedfd10aecf26f688714bb5f98742444f1f0f9545372660f6e3c9",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": "1.200000",
+      "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    },
+    {
+      "cue": "transit",
+      "event": "ST_SFX_Transit",
+      "runtime": "Common/Sounds/Slipstream/transit.ogg",
+      "sha256": "76e993ed3a0715af987f2826d26304f80c8981219799a21ba0f224fa64027fb2",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": "4.000000",
+      "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    },
+    {
+      "cue": "arrival",
+      "event": "ST_SFX_Arrival",
+      "runtime": "Common/Sounds/Slipstream/arrival.ogg",
+      "sha256": "f52bb2fa404668d495c52cdc366910d4001641d16a13a9237571df5df85d64dc",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": "1.280000",
+      "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    },
+    {
+      "cue": "suction",
+      "event": "ST_SFX_Suction",
+      "runtime": "Common/Sounds/Slipstream/suction.ogg",
+      "sha256": "ee18ddf79d6958c883912b371a3e34248a54c04525a63f9a0a0d1d411c65695b",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": "6.000000",
+      "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    },
+    {
+      "cue": "workbench",
+      "event": "ST_SFX_Workbench",
+      "runtime": "Common/Sounds/Slipstream/workbench.ogg",
+      "sha256": "e7a4e630da7ba324f02675a5ab7026f9e8f1008e772ba7971ba15c90d0543701",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": "1.200000",
+      "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    },
+    {
+      "cue": "arrival",
+      "event": "ST_SFX_Handling",
+      "runtime": "Common/Sounds/Slipstream/handling.ogg",
+      "sha256": "8e281ebfb40030880e21750deb0850334798cbf024970eac7cd16452233c7456",
+      "channels": 2,
+      "sample_rate": 44100,
+      "duration": "1.280000",
+      "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    },
+    {
+      "cue": "workbench",
+      "event": "ST_SFX_Workbenchhandling",
+      "runtime": "Common/Sounds/Slipstream/workbenchhandling.ogg",
+      "sha256": "cd6f685190c73b0d40d0b76044763d0dd194b4286d7d71d816af675d24f4e98f",
+      "channels": 2,
+      "sample_rate": 44100,
+      "duration": "1.200000",
+      "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    }
+  ]
+}

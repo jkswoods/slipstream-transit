@@ -1,0 +1,10 @@
+build/
+site/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+.publication-policy.json
+art/

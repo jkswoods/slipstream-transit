@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "server.slipstream.ST_Riser_Blue.name",
+    "Description": "server.slipstream.ST_Riser_Blue.description"
+  },
+  "Icon": "Icons/Items/ST_Riser_Blue.png",
+  "MaxStack": 16,
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Blocks/Slipstream/ST_Riser_Blue.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Slipstream/TransitAtlas_Blue.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ST_Riser_Blue",
+    "InteractionHitboxType": "ST_Select",
+    "PhysicalMaterialId": "Metal",
+    "IgnoreSupportWhenPlaced": true,
+    "PlacementSettings": {
+      "BlockPreviewVisibility": "AlwaysVisible",
+      "AllowRotationKey": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    }
+  },
+  "ItemSoundSetId": "ST_Handling",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "SlipstreamWorkbench",
+        "Categories": [
+          "ST_Blue"
+        ]
+      }
+    ],
+    "TimeSeconds": 2,
+    "OutputQuantity": 1
+  }
+}

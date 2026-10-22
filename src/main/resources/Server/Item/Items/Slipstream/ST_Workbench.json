@@ -1,0 +1,127 @@
+{
+  "TranslationProperties": {
+    "Name": "server.slipstream.ST_Workbench.name",
+    "Description": "server.slipstream.ST_Workbench.description"
+  },
+  "Icon": "Icons/Items/ST_Workbench.png",
+  "MaxStack": 1,
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Blocks/Slipstream/ST_Workbench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Slipstream/TransitAtlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ST_Workbench",
+    "InteractionHitboxType": "ST_Select",
+    "PhysicalMaterialId": "Metal",
+    "IgnoreSupportWhenPlaced": true,
+    "PlacementSettings": {
+      "BlockPreviewVisibility": "AlwaysVisible",
+      "AllowRotationKey": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Bench": {
+      "Type": "Crafting",
+      "Id": "SlipstreamWorkbench",
+      "DescriptiveLabel": "server.slipstream.ST_Workbench.name",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0
+        }
+      ],
+      "Categories": [
+        {
+          "Id": "ST_Teal",
+          "Name": "server.slipstream.colour.Teal",
+          "Icon": "Icons/CraftingCategories/Slipstream/Teal.png"
+        },
+        {
+          "Id": "ST_Coral",
+          "Name": "server.slipstream.colour.Coral",
+          "Icon": "Icons/CraftingCategories/Slipstream/Coral.png"
+        },
+        {
+          "Id": "ST_Gold",
+          "Name": "server.slipstream.colour.Gold",
+          "Icon": "Icons/CraftingCategories/Slipstream/Gold.png"
+        },
+        {
+          "Id": "ST_Blue",
+          "Name": "server.slipstream.colour.Blue",
+          "Icon": "Icons/CraftingCategories/Slipstream/Blue.png"
+        },
+        {
+          "Id": "ST_Violet",
+          "Name": "server.slipstream.colour.Violet",
+          "Icon": "Icons/CraftingCategories/Slipstream/Violet.png"
+        },
+        {
+          "Id": "ST_White",
+          "Name": "server.slipstream.colour.White",
+          "Icon": "Icons/CraftingCategories/Slipstream/White.png"
+        }
+      ],
+      "CompletedSoundEventId": "ST_SFX_Workbench"
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "ItemSoundSetId": "ST_WorkbenchHandling",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ],
+    "TimeSeconds": 3,
+    "OutputQuantity": 1
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Parent": "ISS_Default",
+  "SoundEvents": {
+    "Drag": "ST_SFX_Workbenchhandling",
+    "Drop": "ST_SFX_Workbenchhandling"
+  }
+}

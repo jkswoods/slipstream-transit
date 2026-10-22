@@ -1,0 +1,2 @@
+$C = "../../Common.ui";
+$C.@TextButton { Anchor: (Height: 44, Bottom: 8); Text: "Destination"; }

@@ -1,0 +1,18 @@
+{
+  "Parent": "SFX_Attn_Quiet",
+  "AudioCategory": "AudioCat_Ambient",
+  "Volume": -6,
+  "MaxInstance": 1,
+  "StartAttenuationDistance": 2,
+  "MaxDistance": 32,
+  "SpatialBlend": 1,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Slipstream/transit.ogg"
+      ],
+      "Looping": true,
+      "Volume": 0
+    }
+  ]
+}

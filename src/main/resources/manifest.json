@@ -1,0 +1,9 @@
+{
+  "Group": "SlipstreamTransit",
+  "Name": "SlipstreamTransit",
+  "Version": "0.1.0-dev.1",
+  "Description": "Compact passenger tubes with automatic suction, first-person travel, named destinations and six pipe colours. Development preview for Hytale0.7.3.",
+  "ServerVersion": "=0.7.3",
+  "Main": "dev.slipstream.SlipstreamPlugin",
+  "IncludesAssetPack": true
+}

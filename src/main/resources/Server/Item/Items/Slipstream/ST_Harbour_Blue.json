@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "server.slipstream.ST_Harbour_Blue.name",
+    "Description": "server.slipstream.ST_Harbour_Blue.description"
+  },
+  "Icon": "Icons/Items/ST_Harbour_Blue.png",
+  "MaxStack": 16,
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Blocks/Slipstream/ST_Harbour_Blue.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Slipstream/ST_Harbour_Blue_Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "HitboxType": "ST_Harbour_Blue",
+    "InteractionHitboxType": "ST_Select",
+    "PhysicalMaterialId": "Metal",
+    "IgnoreSupportWhenPlaced": true,
+    "PlacementSettings": {
+      "BlockPreviewVisibility": "AlwaysVisible",
+      "AllowRotationKey": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "AmbientSoundEventId": "ST_SFX_Suction",
+    "InteractionHint": "server.slipstream.board",
+    "Interactions": {
+      "Use": "ST_Board"
+    },
+    "Light": {
+      "Color": "#6BC",
+      "Radius": 2
+    },
+    "State": {
+      "Definitions": {
+        "Active": {
+          "AmbientSoundEventId": "ST_SFX_SuctionActive",
+          "Light": {
+            "Color": "#AD9",
+            "Radius": 2
+          }
+        }
+      }
+    }
+  },
+  "ItemSoundSetId": "ST_Handling",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "SlipstreamWorkbench",
+        "Categories": [
+          "ST_Blue"
+        ]
+      }
+    ],
+    "TimeSeconds": 2,
+    "OutputQuantity": 1
+  }
+}
