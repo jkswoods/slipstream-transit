@@ -6,7 +6,7 @@
 
 ![Slipstream Transit — Take the tube](docs/assets/banner.svg)
 
-**Small tubes. Big shortcuts.** Build a clear passenger-tube network, walk beneath an open intake and get whisked away in first person.
+Travel through colourful passenger tube networks with automatic boarding, branching routes and named destinations.
 
 ![White straight intake feeding a gold junction and two coloured stations, captured in Hytale](docs/assets/screenshots/network-overview.png)
 
