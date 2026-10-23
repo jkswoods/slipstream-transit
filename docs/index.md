@@ -1,6 +1,6 @@
 # Take the tube
 
-![Slipstream Transit](assets/banner.svg)
+![Slipstream Transit](assets/banner-cinematic-v2.png)
 
 <div class="mod-kicker">Hytale 0.7.3 · Development preview</div>
 

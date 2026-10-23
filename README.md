@@ -4,7 +4,7 @@
 
 ![Docs build](https://github.com/jkswoods/slipstream-transit/actions/workflows/docs.yml/badge.svg?branch=main)
 
-![Slipstream Transit — Take the tube](docs/assets/banner.svg)
+![Slipstream Transit — Take the tube](docs/assets/banner-cinematic-v2.png)
 
 Travel through colourful passenger tube networks with automatic boarding, branching routes and named destinations.
 
