@@ -1,16 +1,18 @@
 # Take the tube
 
-![Slipstream Transit](assets/banner.svg)
+![Slipstream Transit](assets/banner-cinematic-v2.png)
 
-<div class="eyebrow">Hytale 0.7.3 · Development preview</div>
+<div class="mod-kicker">Hytale 0.7.3 · Development preview</div>
 
-Build a shortcut you can see through. Step beneath an open intake, shrink into the tube and travel in first person to your next stop.
+Travel through colourful passenger tube networks with automatic boarding, branching routes and named destinations.
+
+Step beneath an open intake, shrink into the tube and travel in first person to your next stop.
 
 ![White straight sucker rising into a gold splitter, with blue and coral stops](assets/screenshots/network-overview.png)
 
 *One straight intake, two destinations. Mix colours freely as you build.*
 
-<div class="guide-links"><a href="getting-started/">Build your first route →</a><a href="recipes/">See the recipes →</a></div>
+<div class="mod-actions"><a class="mod-button" href="getting-started/">Build your first route</a><a class="mod-button mod-button-secondary" href="installation/">Install the preview</a></div>
 
 ## Start small. Branch out.
 
