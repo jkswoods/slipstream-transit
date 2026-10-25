@@ -1,0 +1,15 @@
+{
+  "modId": "SlipstreamTransit",
+  "hytaleFamily": "0.7",
+  "manifest": "src/main/resources/manifest.json",
+  "sdkTarget": {
+    "path": "build-target.json"
+  },
+  "artifact": "build/libs/{modId}-hytale{hytaleFamily}-{version}.jar",
+  "curseforge": {
+    "projectId": 1760301,
+    "gameVersion": "0.7",
+    "releaseType": "alpha",
+    "manualRelease": false
+  }
+}

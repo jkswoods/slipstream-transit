@@ -8,3 +8,10 @@ __pycache__/
 .env.*
 .publication-policy.json
 art/
+
+.cache/
+candidate/
+cf-*.json
+cf-request.env
+candidate-run.json
+curseforge-upload.json

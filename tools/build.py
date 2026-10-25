@@ -2,8 +2,9 @@
 """Build the mod using a separately supplied, pinned official server API."""
 from pathlib import Path
 import hashlib,json,os,shutil,subprocess,zipfile
+from release_pipeline import config, filename
 ROOT=Path(__file__).resolve().parents[1]
-EXPECTED_SERVER='7b62da38b99af1b3a790edbda54f7eee34d8e2955c14505cf87deb5f7cbed9bb'
+EXPECTED_SERVER=config(ROOT/'release.json')['sdkSha256']
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def tool(name):
  home=os.environ.get('ST_JAVA_HOME',os.environ.get('JAVA_HOME'))
@@ -21,7 +22,7 @@ if __name__=='__main__':
  for f in classes.rglob('*.class'):f.unlink()
  sources=sorted((ROOT/'src/main/java').rglob('*.java'))
  subprocess.run([tool('javac'),'--release','25','-Xlint:all','-cp',str(api),'-d',str(classes),*map(str,sources)],check=True)
- manifest=json.loads((ROOT/'src/main/resources/manifest.json').read_text());out=ROOT/'build/libs'/('SlipstreamTransit-'+manifest['Version']+'.jar');out.parent.mkdir(parents=True,exist_ok=True)
+ manifest=json.loads((ROOT/'src/main/resources/manifest.json').read_text());out=ROOT/'build/libs'/filename(config(ROOT/'release.json'));out.parent.mkdir(parents=True,exist_ok=True)
  entries={}
  for folder in [classes,ROOT/'src/main/resources']:
   for f in folder.rglob('*'):
