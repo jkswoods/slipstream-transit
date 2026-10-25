@@ -20,11 +20,11 @@ Travel through colourful passenger tube networks with automatic boarding, branch
 
 ## Development status
 
-Source snapshot: **0.1.0-dev.1**.
+This README describes the `hytale0.7` support branch.
 
 Targets **Hytale 0.7.3 and Java 25**. This is a development preview, with one passenger per world, 128 registered parts and up to 64 parts per journey. Routes require loaded chunks and a single builder. Other players may ride; a real second-client session and survival ingredient deduction still need verification. Keep a complete backup and use a test world.
 
-Screenshots show the C7 gameplay preview in a separate showcase copy. They are native game captures, cropped to the feature or UI. No world or player save is included.
+Screenshots show Hytale 0.7 development gameplay in a separate showcase copy. They are native game captures, cropped to the feature or UI. No world or player save is included.
 
 ## Build
 
@@ -44,7 +44,7 @@ The JAR is written to `build/libs/`. See [installation](https://jkswoods.github.
 The [versioned player guide](https://jkswoods.github.io/slipstream-transit/) is maintained on the separate [`docs` branch](https://github.com/jkswoods/slipstream-transit/tree/docs). In that checkout, run `npm ci --ignore-scripts`, `npm run build` and `npm run check`. Select `docs` when manually dispatching its Pages workflow.
 Pushes to `docs` also publish this guide; contributor PRs validate without deploying.
 
-Download the initial **0.1.0-dev.1** preview from [Releases](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). Code and original project assets are available under the [MIT licence](LICENSE); see [third-party notices](THIRD_PARTY_NOTICES.md).
+Choose a preview compatible with your installed Hytale version from [Releases](https://github.com/jkswoods/slipstream-transit/releases). Code and original project assets are available under the [MIT licence](LICENSE); see [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Compatibility and builds
 
@@ -54,3 +54,5 @@ Current source targets Hytale `>=0.7.3 <0.8.0` and uses the `hytale0.7` support 
 
 See [the contribution guide](CONTRIBUTING.md) for feature and bug-fix PR targets.
 Maintainers handle forward/back ports, and support-branch PRs require owner approval.
+
+The player guide follows the Hytale support line and is updated independently of mod releases. Select downloads by their game compatibility and read the selected file’s release notes for included changes and artifact checksums.
