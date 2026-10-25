@@ -4,7 +4,7 @@ title: "Through the glass"
 
 # Through the glass {#through-the-glass}
 
-Native Hytale screenshots from the C7 gameplay preview. The showcase copy exposes the tubes so their shapes and connections are visible. These are cropped game captures, without chat or player account details.
+Native Hytale screenshots from Hytale 0.7 development gameplay. The showcase copy exposes the tubes so their shapes and connections are visible. These are cropped game captures, without chat or player account details.
 
 ## One intake, two destinations {#one-intake-two-destinations}
 

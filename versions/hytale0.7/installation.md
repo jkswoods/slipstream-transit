@@ -4,9 +4,11 @@ title: "Installation and compatibility"
 
 # Installation and compatibility {#installation-and-compatibility}
 
+This guide follows the **Hytale 0.7 support line**. Published files can lag behind branch changes; read the chosen file’s release notes for the features it includes.
+
 **Target: Hytale 0.7.3 · Java 25 · Development preview**
 
-Download **SlipstreamTransit-0.1.0-dev.1.jar** from the [initial development release](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). The release includes `SHA256SUMS` for checking the download. This is a preview for test worlds; the current limits below still apply.
+Choose a Slipstream Transit file marked compatible with your Hytale game version from [Releases](https://github.com/jkswoods/slipstream-transit/releases). Read that file’s compatibility notes and use its accompanying checksums when supplied. The preview limits below still apply.
 
 You can also build the source with your own official Hytale server JAR.
 
@@ -19,7 +21,7 @@ python3 tools/build.py
 python3 tools/check.py
 ```
 
-The build verifies the pinned server JAR and writes `SlipstreamTransit-<version>.jar` under `build/libs/`. The server JAR and game assets are not bundled.
+The build verifies the pinned server JAR and writes the mod JAR under `build/libs/`, printing its filename. The server JAR and game assets are not bundled.
 
 ## Try it safely {#try-it-safely}
 

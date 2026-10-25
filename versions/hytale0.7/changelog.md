@@ -1,20 +1,22 @@
 ---
-title: "Changes"
+title: "Support-line changes"
 ---
 
-# Changes {#changes}
+# Support-line changes {#changes}
 
-## 0.1.0-dev.1 — initial development release {#010-dev1-initial-development-release}
+Changes described here belong to the **Hytale 0.7 support line**. Download availability, numbered release history and the changes included in a particular file are recorded on [GitHub releases](https://github.com/jkswoods/slipstream-transit/releases).
 
-First downloadable preview: compact passenger tubes, automatic shrinking intake, six colours, a Pipe Workbench, named destinations and splitters. Includes the C7 movement-lock, appearance and icon fixes. Targets Hytale0.7.3 and Java25; multiplayer, survival ingredient deduction and final listening/comfort review remain pending.
+## Tube network foundations {#010-dev1-initial-development-release}
 
-## C7 — passenger controls and appearance {#c7-passenger-controls-and-appearance}
+The support line includes compact passenger tubes, automatic shrinking intake, six colours, a Pipe Workbench, named destinations and splitters. Includes movement-lock, appearance and icon fixes. Targets Hytale0.7.3 and Java25; multiplayer, survival ingredient deduction and final listening/comfort review remain pending.
+
+## Passenger controls and appearance {#c7-passenger-controls-and-appearance}
 
 - Movement stays locked during capture, travel and growth, then restores after arrival, safe return or affected reconnect.
 - Player skin and cosmetics persist through size changes.
 - Item and colour-category icons display at their complete native atlas size.
 
-## C6 — network workshop {#c6-network-workshop}
+## Network workshop {#c6-network-workshop}
 
 - Quieter suction within four blocks and smooth shrink/grow transitions.
 - Enclosed travel with centred scaled bounds and obstruction checks.
