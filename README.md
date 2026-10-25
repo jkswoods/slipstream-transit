@@ -2,7 +2,7 @@
 
 [Player docs](https://jkswoods.github.io/slipstream-transit/) · [Development releases](https://github.com/jkswoods/slipstream-transit/releases)
 
-![Docs build](https://github.com/jkswoods/slipstream-transit/actions/workflows/docs.yml/badge.svg?branch=main)
+![Docs build](https://github.com/jkswoods/slipstream-transit/actions/workflows/docs.yml/badge.svg?branch=docs)
 
 ![Slipstream Transit — Take the tube](docs/assets/banner-cinematic-v2.png)
 
@@ -16,7 +16,7 @@ Travel through colourful passenger tube networks with automatic boarding, branch
 - Six mix-and-match colours, a Pipe Workbench and warning-striped open mouths.
 - Locked movement during travel, with normal size, appearance and controls restored afterward.
 
-[Player guide](docs/index.md) · [Build your first route](docs/getting-started.md) · [Recipes](docs/recipes.md) · [Screenshots](docs/gallery.md) · [Known limits](docs/troubleshooting.md)
+[Player guide](https://jkswoods.github.io/slipstream-transit/hytale0.7/) · [Build your first route](https://jkswoods.github.io/slipstream-transit/hytale0.7/getting-started/) · [Recipes](https://jkswoods.github.io/slipstream-transit/hytale0.7/recipes/) · [Screenshots](https://jkswoods.github.io/slipstream-transit/hytale0.7/gallery/) · [Known limits](https://jkswoods.github.io/slipstream-transit/hytale0.7/troubleshooting/)
 
 ## Development status
 
@@ -37,18 +37,20 @@ python3 tools/build.py
 python3 tools/check.py
 ```
 
-The JAR is written to `build/libs/`. See [installation](docs/installation.md) before trying it in a world.
+The JAR is written to `build/libs/`. See [installation](https://jkswoods.github.io/slipstream-transit/hytale0.7/installation/) before trying it in a world.
 
 ## Documentation
 
-```sh
-python3 -m venv .venv-docs
-.venv-docs/bin/python -m pip install -r requirements-docs.txt
-.venv-docs/bin/python -m mkdocs serve
-```
+The [versioned player guide](https://jkswoods.github.io/slipstream-transit/) is maintained on the separate [`docs` branch](https://github.com/jkswoods/slipstream-transit/tree/docs). In that checkout, run `npm ci --ignore-scripts`, `npm run build` and `npm run check`. Select `docs` when manually dispatching its Pages workflow.
+Pushes to `docs` also publish this guide; contributor PRs validate without deploying.
 
-Pushes to `main` build and publish the [player guide](https://jkswoods.github.io/slipstream-transit/). Pull requests build the docs without deploying. Download the initial **0.1.0-dev.1** preview from [Releases](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). Code and original project assets are available under the [MIT licence](LICENSE); see [third-party notices](THIRD_PARTY_NOTICES.md).
+Download the initial **0.1.0-dev.1** preview from [Releases](https://github.com/jkswoods/slipstream-transit/releases/tag/v0.1.0-dev.1). Code and original project assets are available under the [MIT licence](LICENSE); see [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Compatibility and builds
 
-Current source targets Hytale `>=0.7.3 <0.8.0` and uses the `hytale0.7` support branch. See [build and release instructions](docs/build-and-release.md) for the SDK pin, candidate checks, versioned filenames and CurseForge workflow.
+Current source targets Hytale `>=0.7.3 <0.8.0` and uses the `hytale0.7` support branch. See [build and release instructions](https://jkswoods.github.io/slipstream-transit/hytale0.7/build-and-release/) for the SDK pin, candidate checks, versioned filenames and CurseForge workflow.
+
+## Contributing
+
+See [the contribution guide](CONTRIBUTING.md) for feature and bug-fix PR targets.
+Maintainers handle forward/back ports, and support-branch PRs require owner approval.
