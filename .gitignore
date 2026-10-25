@@ -15,3 +15,6 @@ cf-*.json
 cf-request.env
 candidate-run.json
 curseforge-upload.json
+
+# Manual release run state
+/.release/
