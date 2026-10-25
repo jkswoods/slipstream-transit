@@ -1,0 +1,2 @@
+/* Mod identity overrides for the shared publication layout. */
+:root { --pub-accent: #46a3a7; --pub-accent-ink: #17272d; --pub-link: #205a68; }

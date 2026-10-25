@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Overview",
+    "path": "/",
+    "icon": "house"
+  },
+  {
+    "title": "Installation",
+    "path": "/installation",
+    "icon": "download"
+  },
+  {
+    "title": "First steps",
+    "path": "/getting-started",
+    "icon": "rocket"
+  },
+  {
+    "title": "Progression",
+    "path": "/progression",
+    "icon": "chart-no-axes-combined"
+  },
+  {
+    "title": "Features",
+    "path": "/features",
+    "icon": "book-open"
+  },
+  {
+    "title": "Recipes",
+    "path": "/recipes",
+    "icon": "book-open"
+  },
+  {
+    "title": "Screenshots",
+    "path": "/gallery",
+    "icon": "images"
+  },
+  {
+    "title": "Configuration",
+    "path": "/configuration",
+    "icon": "settings"
+  },
+  {
+    "title": "Troubleshooting",
+    "path": "/troubleshooting",
+    "icon": "circle-help"
+  },
+  {
+    "title": "Changelog",
+    "path": "/changelog",
+    "icon": "history"
+  },
+  {
+    "title": "Build and releases",
+    "path": "/build-and-release",
+    "icon": "workflow"
+  }
+]
