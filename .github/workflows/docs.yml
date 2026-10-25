@@ -2,9 +2,9 @@ name: Docs
 
 on:
   push:
-    branches: [main]
+    branches: ['hytale*']
   pull_request:
-    branches: [main]
+    branches: ['hytale*']
   workflow_dispatch:
 
 permissions:
@@ -35,16 +35,16 @@ jobs:
       - name: Build player guide
         run: python -m mkdocs build --strict
       - name: Configure Pages
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Upload generated site
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: site
 
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10
