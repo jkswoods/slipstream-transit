@@ -1,7 +1,7 @@
 {
   "Group": "SlipstreamTransit",
   "Name": "SlipstreamTransit",
-  "Version": "0.2.0-dev.2",
+  "Version": "0.2.0",
   "Description": "Bounded concurrent passengers and long tube journeys. Development preview for Hytale0.7.3; real multiplayer and human comfort/listening acceptance pending.",
   "ServerVersion": ">=0.7.3 <0.8.0",
   "Main": "dev.slipstream.SlipstreamPlugin",
