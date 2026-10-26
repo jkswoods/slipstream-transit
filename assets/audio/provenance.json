@@ -402,6 +402,32 @@
       "sample_rate": 44100,
       "duration": "1.200000",
       "processing": "lowpass6500Hz, gain-9dB, limiter .5 no auto level; mono spatial / stereo inventory Vorbis libsndfile default quality"
+    },
+    {
+      "cue": "waiting",
+      "event": "ST_SFX_Waiting",
+      "source_sha256": "0eb078569e0625686047a27e3e615ea6915f8e20ca130f38f3bf98863f8d0e84",
+      "runtime": "Common/Sounds/Slipstream/waiting.ogg",
+      "sha256": "b300aff76688d2042917dc680a77742c885b783cdf41917edb75e0fab54ea480",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": "3.000000",
+      "processing": "Mono44100Hz Vorbis; lowpass6500Hz, gain-12dB, limiter.5 no auto level",
+      "human_listening": "pending"
     }
-  ]
+  ],
+  "waiting": {
+    "provider": "ElevenLabs connected plugin",
+    "model_id": "eleven_text_to_sound_v2",
+    "model_parameters": {
+      "prompt_influence": 0.3,
+      "loop": false
+    },
+    "prompt": "One short gentle pneumatic platform waiting notification for a whimsical industrial passenger tube station. Soft rounded two-note mechanical chime and a tiny air-valve tick, calm and friendly, under one second with a clean natural decay. No voices, no music, no alarm, no harsh high frequencies, no continuous hiss. Sparse and unobtrusive for nearby waiting travellers.",
+    "generation_id": "LNkywDUZyTlqVhvXcQLZ",
+    "actual_duration_seconds": 3,
+    "source_sha256": "0eb078569e0625686047a27e3e615ea6915f8e20ca130f38f3bf98863f8d0e84",
+    "processing": "Mono44100Hz Vorbis; lowpass6500Hz, gain-12dB, limiter.5 no auto level",
+    "human_listening": "pending"
+  }
 }

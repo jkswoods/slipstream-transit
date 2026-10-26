@@ -22,7 +22,7 @@ public final class GraphTests {
   // Existing compact v2 records retain all user-placed parts.
   byte[] legacy=Base64.getDecoder().decode(g.snapshot());legacy[3]=2;assert TransitGraph.restore(Base64.getEncoder().encodeToString(legacy)).nodes.size()==g.nodes.size();
   var limit=new TransitGraph();limit.add(node(0,80,0,"ST_Harbour",X));for(int x=1;x<63;x++)limit.add(node(x,80,0,"ST_Straight",X.opposite(),X));limit.add(node(63,80,0,"ST_Overlook",X.opposite()));assert limit.route(new Cell(0,80,0),owner).size()==64;
-  limit.nodes.remove(new Cell(63,80,0));limit.add(node(63,80,0,"ST_Straight",X.opposite(),X));limit.add(node(64,80,0,"ST_Overlook",X.opposite()));refuses(()->limit.route(new Cell(0,80,0),owner));
-  System.out.println("Graph checks passed: bent/rising/reverse, coloured splitters and destination choice, v2 migration/v3 snapshot, 64-part bound, ownership, overlap, malformed and broken ports.");
+  limit.nodes.remove(new Cell(63,80,0));limit.add(node(63,80,0,"ST_Straight",X.opposite(),X));limit.add(node(64,80,0,"ST_Overlook",X.opposite()));assert limit.route(new Cell(0,80,0),owner).size()==65;
+  System.out.println("Graph checks passed: bent/rising/reverse, coloured splitters and destination choice, v2 migration/v3 snapshot, longer than64 parts, ownership, overlap, malformed and broken ports.");
  }
 }

@@ -192,6 +192,7 @@ class Dispatch(unittest.TestCase):
         hook.write_text('#!/bin/sh\nwhile read old new ref; do\n  case "$ref" in refs/heads/hytale*) exit 1;; esac\ndone\n')
         hook.chmod(0o755)
         self.plan['source'] = source
+        Path('RELEASE_NOTES.md').write_text('Concurrent passenger preview. Real second-client acceptance remains pending.')
         with patch.dict(os.environ, {'GITHUB_SHA': source}):
             release.stamp(self.plan)
             self.plan['commit'] = git('rev-parse', 'HEAD')
@@ -205,6 +206,7 @@ class Dispatch(unittest.TestCase):
                 if path.endswith('/generate-notes'):
                     return {'body': 'Verified changes'}
                 if path.endswith('/releases') and method == 'POST':
+                    self.assertIn('Real second-client acceptance remains pending.', body['body'])
                     return self.release
                 if method == 'PATCH':
                     return self.release | {'draft': False}

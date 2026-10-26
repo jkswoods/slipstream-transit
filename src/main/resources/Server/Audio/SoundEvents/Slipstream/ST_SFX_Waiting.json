@@ -1,0 +1,18 @@
+{
+  "Parent": "SFX_Attn_Quiet",
+  "AudioCategory": "AudioCat_SFX",
+  "Volume": -12,
+  "MaxInstance": 8,
+  "StartAttenuationDistance": 0.6,
+  "MaxDistance": 4,
+  "SpatialBlend": 1,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Slipstream/waiting.ogg"
+      ],
+      "Looping": false,
+      "Volume": 0
+    }
+  ]
+}

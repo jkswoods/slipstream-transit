@@ -99,6 +99,15 @@ def title(config):
     return f"{config.get('displayName', config['modId'])} {config['version']} — Hytale {config['hytaleFamily']}"
 
 
+def player_notes():
+    path = Path('RELEASE_NOTES.md')
+    if not path.is_file():
+        return ''
+    text = path.read_text(encoding='utf-8').strip()
+    require(len(text.encode('utf-8')) <= 32768, 'Release notes exceed the inspection bound')
+    return text
+
+
 def fingerprint(config):
     keys = ('modId', 'hytaleFamily', 'serverVersion', 'sdkVersion', 'sdkSha256', 'javaVersion')
     value = {key: config[key] for key in keys}
@@ -291,6 +300,9 @@ def publish():
         # support branch is never updated or given an Actions review bypass.
         run(['git', '-c', 'credential.helper=', '-c', 'credential.helper=!gh auth git-credential', 'push', 'origin', 'refs/tags/' + plan['tag']])
         notes = f"{title(config)}\n\nHytale support: `{config['serverVersion']}`. Channel: {plan['channel']}.\n\n"
+        changes = player_notes()
+        if changes:
+            notes += changes + '\n\n'
         if plan['previous']:
             generated = gh(api_root() + '/releases/generate-notes', 'POST', {'tag_name': plan['tag'], 'target_commitish': plan['commit'], 'previous_tag_name': plan['previous']})
             notes += generated['body'] + '\n\n'

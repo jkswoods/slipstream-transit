@@ -11,6 +11,13 @@ public final class TransitWorld implements Resource<EntityStore> {
   .append(new KeyedCodec<>("Names",Codec.STRING),TransitWorld::readNames,TransitWorld::names).add()
   .append(new KeyedCodec<>("FlightRestore",Codec.STRING),TransitWorld::readFlight,TransitWorld::flight).add().build();
  TransitGraph graph=new TransitGraph();
+ final Traffic traffic=new Traffic();
+ RouteChunks chunks;
+ final Map<UUID,Departure> departures=new LinkedHashMap<>();
+ final Map<UUID,ScopedLoads<RouteChunks.Section,RouteChunks.Held>.Lease> recoveryChunks=new HashMap<>();
+ final Map<UUID,Double> recoveryLoadTime=new HashMap<>();
+ double clock;long nextRide;
+ static final class Departure {final com.hypixel.hytale.component.Ref<EntityStore> ref;final com.hypixel.hytale.server.core.universe.PlayerRef player;final List<TransitGraph.Node> route;final double queued;String state="";double loading=-1;Ride prepared;int verified=1;ScopedLoads<RouteChunks.Section,RouteChunks.Held>.Lease chunks;Departure(com.hypixel.hytale.component.Ref<EntityStore> ref,com.hypixel.hytale.server.core.universe.PlayerRef player,List<TransitGraph.Node> route,double queued){this.ref=ref;this.player=player;this.route=List.copyOf(route);this.queued=queued;}}
  final Map<UUID,TransitGraph.Cell> returns=new HashMap<>();
  final Map<UUID,com.hypixel.hytale.protocol.FlyMode> flightRestore=new HashMap<>();
  final ArrayDeque<Runnable> confirmed=new ArrayDeque<>();
@@ -18,13 +25,13 @@ public final class TransitWorld implements Resource<EntityStore> {
  record Growth(float from,float time) {}
  final Map<UUID,Growth> growing=new HashMap<>();
  final Set<UUID> choosing=new HashSet<>(),naming=new HashSet<>();
- final Map<UUID,Ride> rides=new HashMap<>();
+ final Map<UUID,Ride> rides=new HashMap<>(),parked=new HashMap<>();
  final Map<UUID,Set<TransitGraph.Cell>> entryBlocked=new HashMap<>();
  final Set<UUID> entrySeen=new HashSet<>(),pendingAuto=new HashSet<>();
  final Set<UUID> returning=new HashSet<>();
  String name(TransitGraph.Node n){return names.getOrDefault(n.cell(),(TransitGraph.kind(n.item()).equals("ST_Harbour")?"Harbour":TransitGraph.kind(n.item()).equals("ST_UpIntake")?"Straight Sucker":"Overlook")+" · "+n.cell().x()+", "+n.cell().z());}
  String names(){var join=new StringJoiner(";");names.forEach((c,n)->join.add(c.x()+","+c.y()+","+c.z()+","+Base64.getEncoder().encodeToString(n.getBytes(java.nio.charset.StandardCharsets.UTF_8))));return join.toString();}
- void readNames(String s){if(s.isEmpty())return;for(String row:s.split(";")){var p=row.split(",",4);if(p.length!=4||names.size()>=128)throw new IllegalStateException("Invalid station names");var n=new String(Base64.getDecoder().decode(p[3]),java.nio.charset.StandardCharsets.UTF_8);if(n.isBlank()||n.length()>32)throw new IllegalStateException("Invalid station name");names.put(new TransitGraph.Cell(Integer.parseInt(p[0]),Integer.parseInt(p[1]),Integer.parseInt(p[2])),n);}}
+ void readNames(String s){if(s.isEmpty())return;for(String row:s.split(";")){var p=row.split(",",4);if(p.length!=4||names.size()>=TransitLimits.SAVED_PARTS)throw new IllegalStateException("Invalid station names");var n=new String(Base64.getDecoder().decode(p[3]),java.nio.charset.StandardCharsets.UTF_8);if(n.isBlank()||n.length()>32)throw new IllegalStateException("Invalid station name");names.put(new TransitGraph.Cell(Integer.parseInt(p[0]),Integer.parseInt(p[1]),Integer.parseInt(p[2])),n);}}
  String returns() {StringJoiner s=new StringJoiner(";");returns.forEach((id,c)->s.add(id+","+c.x()+","+c.y()+","+c.z()));return s.toString();}
  void readReturns(String s) {
   if(s.isEmpty())return;String[] rows=s.split(";");if(rows.length>128)throw new IllegalStateException("Too many Slipstream return markers");

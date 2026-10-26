@@ -6,7 +6,7 @@ from build import ROOT,server,tool
 api=server();classes=ROOT/'build/classes';tests=ROOT/'build/test-classes';tests.mkdir(parents=True,exist_ok=True)
 cp=str(classes)+os.pathsep+str(api)
 subprocess.run([tool('javac'),'--release','25','-cp',cp,'-d',str(tests),*map(str,(ROOT/'src/test/java').rglob('*.java'))],check=True)
-for test in ['GraphTests','PassengerStateTests']:subprocess.run([tool('java'),'-ea','-cp',cp+os.pathsep+str(tests),'dev.slipstream.'+test],check=True)
+for test in ['GraphTests','PassengerStateTests','TrafficTests']:subprocess.run([tool('java'),'-ea','-cp',cp+os.pathsep+str(tests),'dev.slipstream.'+test],check=True)
 res=ROOT/'src/main/resources';items=list((res/'Server/Item/Items/Slipstream').glob('*.json'));assert len(items)==55
 icons=list((res/'Common/Icons/Items').glob('ST_*.png'))+list((res/'Common/Icons/CraftingCategories/Slipstream').glob('*.png'));assert len(icons)==61
 for p in icons:

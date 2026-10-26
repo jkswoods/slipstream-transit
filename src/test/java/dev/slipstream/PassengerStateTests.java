@@ -10,6 +10,10 @@ public final class PassengerStateTests {
   PassengerControls.lock(m);assert Arrays.equals(PassengerControls.capture(m),new float[9]);assert m.mass==73&&m.dragCoefficient==.63f&&m.airControlMaxMultiplier==.41f;
   var encoded=TransitPassenger.CODEC.encode(saved,EmptyExtraInfo.EMPTY);var reloaded=TransitPassenger.CODEC.decode(encoded,EmptyExtraInfo.EMPTY);PassengerControls.apply(m,reloaded.inputSpeeds);assert m.equals(original):"Original movement fields changed after serialized recovery";
   encoded.remove("InputSpeeds");var legacy=TransitPassenger.CODEC.decode(encoded,EmptyExtraInfo.EMPTY);PassengerControls.apply(m,legacy.inputSpeeds);assert m.equals(original):"Legacy recovery changed input settings";
+  var world=new TransitWorld();var first=java.util.UUID.randomUUID();var second=java.util.UUID.randomUUID();var at=new TransitGraph.Cell(8,82,8);var away=new TransitGraph.Cell(519,82,8);
+  world.returns.put(first,at);world.returns.put(second,away);world.flightRestore.put(first,com.hypixel.hytale.protocol.FlyMode.Allowed);world.flightRestore.put(second,com.hypixel.hytale.protocol.FlyMode.Disabled);world.names.put(at,"Original stop");
+  var worldEncoded=TransitWorld.CODEC.encode(world,EmptyExtraInfo.EMPTY);var worldReloaded=TransitWorld.CODEC.decode(worldEncoded,EmptyExtraInfo.EMPTY);assert worldReloaded.returns.equals(world.returns)&&worldReloaded.flightRestore.equals(world.flightRestore)&&worldReloaded.names.equals(world.names):"Per-rider return state changed";
+  worldReloaded.returns.remove(first);worldReloaded.flightRestore.remove(first);assert worldReloaded.returns.containsKey(second)&&worldReloaded.flightRestore.get(second)==com.hypixel.hytale.protocol.FlyMode.Disabled:"One recovery erased another rider";assert world.returns.size()==2:"Decoded resources share mutable recovery state";
   System.out.println("Passenger settings passed: custom speeds locked, unrelated physics preserved, serialized recovery restores exact settings, legacy marker accepted.");
  }
 }

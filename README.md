@@ -22,7 +22,7 @@ Travel through colourful passenger tube networks with automatic boarding, branch
 
 This README describes the `hytale0.7` support branch.
 
-Targets **Hytale 0.7.3 and Java 25**. This is a development preview, with one passenger per world, 128 registered parts and up to 64 parts per journey. Routes require loaded chunks and a single builder. Other players may ride; a real second-client session and survival ingredient deduction still need verification. Keep a complete backup and use a test world.
+Targets **Hytale 0.7.3 and Java 25**. This development branch adds up to eight reserved passenger journeys per world, 8,192 registered parts and journeys of up to 512 parts by default. Same-direction riders share a route with headway; opposing and conflicting junction traffic waits. Routes temporarily retain their chunk corridor beyond the starting view and require a single builder. Read each download’s release notes for included features. Other players may ride; a real second-client session and survival ingredient deduction still need verification. Keep a complete backup and use a test world.
 
 Screenshots show Hytale 0.7 development gameplay in a separate showcase copy. They are native game captures, cropped to the feature or UI. No world or player save is included.
 
